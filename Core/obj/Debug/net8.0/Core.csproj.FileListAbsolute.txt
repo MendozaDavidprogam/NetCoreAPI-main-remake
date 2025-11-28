@@ -1,0 +1,12 @@
+D:\NetCoreAPI-main-remake\Core\bin\Debug\net8.0\Core.deps.json
+D:\NetCoreAPI-main-remake\Core\bin\Debug\net8.0\Core.dll
+D:\NetCoreAPI-main-remake\Core\bin\Debug\net8.0\Core.pdb
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.sourcelink.json
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.dll
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\refint\Core.dll
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\Core.pdb
+D:\NetCoreAPI-main-remake\Core\obj\Debug\net8.0\ref\Core.dll
