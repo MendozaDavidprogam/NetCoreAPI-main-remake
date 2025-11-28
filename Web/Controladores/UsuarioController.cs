@@ -74,7 +74,7 @@ namespace Web.Controladores
         }
 
         // POST: api/usuario/iniciosesion
-        [HttpPost("iniciosesion")]
+        /*[HttpPost("iniciosesion")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] Usuario usuario)
         {
@@ -87,7 +87,24 @@ namespace Web.Controladores
             {
                 return BadRequest(new { message = ex.Message });
             }
+        }*/
+
+        // POST: api/usuario/iniciosesion
+        [HttpPost("iniciosesion")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([FromBody] ModeloLogin modelo)
+        {
+            try
+            {
+                var respuesta = await _servicio.IniciarSesion(modelo.Email, modelo.Password);
+                return Ok(respuesta);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
+
 
         // PUT: api/usuario/5
         [HttpPut("{id}")]
